@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0973B05D5672F30765DD5A45 /* Pods_TicketmasterRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C887BEE196BEDC081C5CAB /* Pods_TicketmasterRxSwift.framework */; };
 		22FC8E381E79FD00001D1003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC8E371E79FD00001D1003 /* AppDelegate.swift */; };
 		22FC8E3A1E79FD00001D1003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC8E391E79FD00001D1003 /* ViewController.swift */; };
 		22FC8E3D1E79FD00001D1003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FC8E3B1E79FD00001D1003 /* Main.storyboard */; };
 		22FC8E3F1E79FD00001D1003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FC8E3E1E79FD00001D1003 /* Assets.xcassets */; };
 		22FC8E421E79FD00001D1003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FC8E401E79FD00001D1003 /* LaunchScreen.storyboard */; };
 		22FC8E4D1E79FD00001D1003 /* TicketmasterRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC8E4C1E79FD00001D1003 /* TicketmasterRxSwiftTests.swift */; };
+		5B2A9100B10B9B93C43F8062 /* Pods_TicketmasterRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6875C2EC2536C0A853A478DA /* Pods_TicketmasterRxSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		22FC8E481E79FD00001D1003 /* TicketmasterRxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketmasterRxSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FC8E4C1E79FD00001D1003 /* TicketmasterRxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketmasterRxSwiftTests.swift; sourceTree = "<group>"; };
 		22FC8E4E1E79FD00001D1003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C887BEE196BEDC081C5CAB /* Pods_TicketmasterRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketmasterRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6875C2EC2536C0A853A478DA /* Pods_TicketmasterRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketmasterRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CD2D6B8AE5F1F87C2429B4 /* Pods-TicketmasterRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketmasterRxSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicketmasterRxSwiftTests/Pods-TicketmasterRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		9ED3693430B82DF96CBF0B2F /* Pods-TicketmasterRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketmasterRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicketmasterRxSwift/Pods-TicketmasterRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		A0FFC7DFDD5C61157986AAB7 /* Pods-TicketmasterRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketmasterRxSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicketmasterRxSwiftTests/Pods-TicketmasterRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AECF68E7D5787CFA2F44FE4B /* Pods-TicketmasterRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketmasterRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicketmasterRxSwift/Pods-TicketmasterRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0973B05D5672F30765DD5A45 /* Pods_TicketmasterRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2A9100B10B9B93C43F8062 /* Pods_TicketmasterRxSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D62268B93C0D984D90FBB81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67C887BEE196BEDC081C5CAB /* Pods_TicketmasterRxSwift.framework */,
+				6875C2EC2536C0A853A478DA /* Pods_TicketmasterRxSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		22FC8E2B1E79FD00001D1003 = {
 			isa = PBXGroup;
 			children = (
 				22FC8E361E79FD00001D1003 /* TicketmasterRxSwift */,
 				22FC8E4B1E79FD00001D1003 /* TicketmasterRxSwiftTests */,
 				22FC8E351E79FD00001D1003 /* Products */,
+				8CA3D0638D2354CA68A23888 /* Pods */,
+				0D62268B93C0D984D90FBB81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = TicketmasterRxSwiftTests;
 			sourceTree = "<group>";
 		};
+		8CA3D0638D2354CA68A23888 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AECF68E7D5787CFA2F44FE4B /* Pods-TicketmasterRxSwift.debug.xcconfig */,
+				9ED3693430B82DF96CBF0B2F /* Pods-TicketmasterRxSwift.release.xcconfig */,
+				A0FFC7DFDD5C61157986AAB7 /* Pods-TicketmasterRxSwiftTests.debug.xcconfig */,
+				95CD2D6B8AE5F1F87C2429B4 /* Pods-TicketmasterRxSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FC8E511E79FD00001D1003 /* Build configuration list for PBXNativeTarget "TicketmasterRxSwift" */;
 			buildPhases = (
+				8FC3EAA2CF4D94DD8C109874 /* [CP] Check Pods Manifest.lock */,
 				22FC8E301E79FD00001D1003 /* Sources */,
 				22FC8E311E79FD00001D1003 /* Frameworks */,
 				22FC8E321E79FD00001D1003 /* Resources */,
+				886C999050551754796162B7 /* [CP] Embed Pods Frameworks */,
+				9B3DD35AA9DD2446BCE06B57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FC8E541E79FD00001D1003 /* Build configuration list for PBXNativeTarget "TicketmasterRxSwiftTests" */;
 			buildPhases = (
+				802B101E523C96EAACCCA99B /* [CP] Check Pods Manifest.lock */,
 				22FC8E441E79FD00001D1003 /* Sources */,
 				22FC8E451E79FD00001D1003 /* Frameworks */,
 				22FC8E461E79FD00001D1003 /* Resources */,
+				6D780378764D741AB86CF388 /* [CP] Embed Pods Frameworks */,
+				37A880ED3E26B100828AA339 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A880ED3E26B100828AA339 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketmasterRxSwiftTests/Pods-TicketmasterRxSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D780378764D741AB86CF388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketmasterRxSwiftTests/Pods-TicketmasterRxSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802B101E523C96EAACCCA99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		886C999050551754796162B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketmasterRxSwift/Pods-TicketmasterRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC3EAA2CF4D94DD8C109874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3DD35AA9DD2446BCE06B57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketmasterRxSwift/Pods-TicketmasterRxSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22FC8E301E79FD00001D1003 /* Sources */ = {
@@ -337,6 +468,7 @@
 		};
 		22FC8E521E79FD00001D1003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECF68E7D5787CFA2F44FE4B /* Pods-TicketmasterRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TicketmasterRxSwift/Info.plist;
@@ -349,6 +481,7 @@
 		};
 		22FC8E531E79FD00001D1003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED3693430B82DF96CBF0B2F /* Pods-TicketmasterRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TicketmasterRxSwift/Info.plist;
@@ -361,6 +494,7 @@
 		};
 		22FC8E551E79FD00001D1003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FFC7DFDD5C61157986AAB7 /* Pods-TicketmasterRxSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,6 +509,7 @@
 		};
 		22FC8E561E79FD00001D1003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CD2D6B8AE5F1F87C2429B4 /* Pods-TicketmasterRxSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
